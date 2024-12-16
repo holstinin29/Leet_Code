@@ -18,7 +18,7 @@ def titleToNumber(columnTitle):
 
     sum = 0
     for elem in columnTitle:
-        sum = sum * 26 +  d[elem]
+        sum = sum * 26 + d[elem]
 
     return sum
 
